@@ -66,3 +66,30 @@ li:hover{
 	background: white;
 	margin: auto;
 }
+
+
+button{
+	transition: all 0.2s;
+	position: absolute;
+	margin: 10px;
+	left: 0px;
+	padding: 20px;
+	border: none;
+}
+
+#button{
+	top: 80px;
+}
+
+
+button:hover{
+	outline: 2px solid #60509b;
+	cursor: pointer;
+}
+
+
+
+button:active{
+	background: #8471ca;
+	color: white;
+}
